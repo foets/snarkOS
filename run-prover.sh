@@ -9,7 +9,7 @@ then
     exit 1
 fi
 
-COMMAND="cargo run --release -- --prover ${MINER_ADDRESS} --pool 69.10.36.174:4132 --verbosity 1"
+COMMAND="cargo run --release -- --prover ${MINER_ADDRESS} --pool 67.227.130.10:4132 --verbosity 1"
 
 for word in $*;
 do
